@@ -1,0 +1,56 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Real-Time NIDS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body{
+        background-image: url("images/backgroundimg.jpg");  /* ✅ path to your image */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  .alert-box {
+  background: #ebe4e8;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(59, 48, 48, 0.1);
+  width: 320px;
+}
+
+.alert-box h2 {
+  color: #00ffe7;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+#alerts li {
+  padding: 10px;
+  margin: 10px 0;
+  background: rgba(255, 0, 0, 0.1);
+  border-left: 4px solid red;
+  border-radius: 8px;
+  list-style: none;
+  font-weight: 500;
+  animation: fadeIn 1s ease forwards;
+}
+
+/* Alert animation */
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateX(-20px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+    </style>
+<body>
+   
+  <h1>Network in one touch</h1>
+  <div id="alert-box">
+    <h1>analysis</h1>
+    
+</body>
+</html>
+
+

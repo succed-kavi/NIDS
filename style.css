@@ -1,0 +1,14 @@
+/* static/style.css */
+body {
+  background: #0a0a0a;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 2rem;
+}
+
+#alert-box {
+  background: rgba(255, 0, 0, 0.1);
+  padding: 1rem;
+  border: 1px solid red;
+  border-radius: 10px;
+}
